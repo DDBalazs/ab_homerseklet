@@ -21,5 +21,11 @@ namespace ab_homerseklet
         {
             Close();
         }
+
+        private void txadatok_Click(object sender, EventArgs e)
+        {
+            frmadatok frmadatok = new frmadatok();
+            frmadatok.ShowDialog();
+        }
     }
 }

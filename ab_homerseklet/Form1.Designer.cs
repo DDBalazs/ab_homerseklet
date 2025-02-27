@@ -61,6 +61,7 @@
             this.txadatok.Name = "txadatok";
             this.txadatok.Size = new System.Drawing.Size(180, 22);
             this.txadatok.Text = "Adatok rögzítése";
+            this.txadatok.Click += new System.EventHandler(this.txadatok_Click);
             // 
             // tsstatisztika
             // 
